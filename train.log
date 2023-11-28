@@ -1,0 +1,156 @@
+C:\Users\ph_ma\OneDrive\UFU\2023-2\IC\trabalho2>julia model.jl
+1955.649422 seconds (61.74 M allocations: 793.830 GiB, 3.03% gc time, 2.17% compilation time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+1×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+--------------------------------
+1916.393668 seconds (4.00 M allocations: 790.121 GiB, 3.02% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+2×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+--------------------------------
+1783.677512 seconds (4.00 M allocations: 790.121 GiB, 3.02% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+3×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+--------------------------------
+1786.809673 seconds (4.00 M allocations: 790.121 GiB, 3.09% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+4×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+--------------------------------
+1779.500317 seconds (4.00 M allocations: 790.121 GiB, 3.08% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+5×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+--------------------------------
+1779.589751 seconds (4.00 M allocations: 790.121 GiB, 3.07% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+6×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+   6 │ 6.0        0.821
+--------------------------------
+1887.819354 seconds (4.00 M allocations: 790.121 GiB, 3.00% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+7×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+   6 │ 6.0        0.821
+   7 │ 7.0        0.8238
+--------------------------------
+1901.995999 seconds (4.00 M allocations: 790.121 GiB, 2.91% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+8×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+   6 │ 6.0        0.821
+   7 │ 7.0        0.8238
+   8 │ 8.0        0.8261
+--------------------------------
+1931.070604 seconds (4.00 M allocations: 790.121 GiB, 3.07% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+9×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+   6 │ 6.0        0.821
+   7 │ 7.0        0.8238
+   8 │ 8.0        0.8261
+   9 │ 9.0        0.8247
+--------------------------------
+1880.909093 seconds (4.00 M allocations: 790.121 GiB, 3.12% gc time)
+
+--------------------------------
+Chain(Conv((3, 3), 3 => 64, relu, pad=1), BatchNorm(64), Conv((3, 3), 64 => 64, relu, pad=1), BatchNorm(64), MaxPool((2, 2)), Conv((3, 3), 64 => 128, relu, pad=1), BatchNorm(128), Conv((3, 3), 128 => 128, relu, pad=1), BatchNorm(128), MaxPool((2, 2)), Conv((3, 3), 128 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), BatchNorm(256), Conv((3, 3), 256 => 256, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 256 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), BatchNorm(512), Conv((3, 3), 512 => 512, relu, pad=1), MaxPool((2, 2)), #3, Dense(512 => 4096, relu), Dropout(0.5), Dense(4096 => 4096, relu), Dropout(0.5), Dense(4096 => 10), softmax)
+--------------------------------
+10×3 DataFrame
+ Row │ Epoch (N)  Accuracy (%)  Time (s)
+     │ Any        Any           Any
+─────┼───────────────────────────────────
+   1 │ 1.0        0.4885
+   2 │ 2.0        0.6089
+   3 │ 3.0        0.6586
+   4 │ 4.0        0.7259
+   5 │ 5.0        0.7468
+   6 │ 6.0        0.821
+   7 │ 7.0        0.8238
+   8 │ 8.0        0.8261
+   9 │ 9.0        0.8247
+  10 │ 10.0       0.8256
+--------------------------------

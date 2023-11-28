@@ -5,7 +5,7 @@ using Printf, BSON
 include("dataset.jl")
 include("test.jl")
 
-best_model_file="trained_model_(best=8).bson"
+best_model_file="trained_model_8.bson"
 
 BSON.@load best_model_file nn_model
 
